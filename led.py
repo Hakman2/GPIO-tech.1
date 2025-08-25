@@ -11,4 +11,4 @@ try:
         sleep(0.5)
 except KeyboardInterrupt:
     print("Script interrupted. Cleaning up...")
-    led.off()  # Turn off the LED before exitin
+    led.off()  # Turn off the LED before exiting
