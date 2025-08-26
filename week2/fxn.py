@@ -46,7 +46,7 @@ try:
     def is_true(takenum):
         result = takenum % 2 == 0
         return result
-    print(is_true())
 
 except NameError:
     print("sorry")
+    import pandas as pd; 
